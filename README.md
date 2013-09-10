@@ -1,0 +1,8 @@
+squid
+=====
+
+Samples
+-------
+```
+include squid
+```
