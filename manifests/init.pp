@@ -1,5 +1,5 @@
 class squid {
-  $required = $operatingsystem ? {
+  $required = $::operatingsystem ? {
     /(?i-mx:centos|fedora|redhat|scientific)/ => 'squid',
   }
 
